@@ -1,0 +1,14 @@
+[Unit]
+Description=Start a laravel-echo-server
+After=network.target
+
+[Service]
+User=User
+Group=GROUP
+WorkingDirectory=/path/to/laravel/
+ExecStart=/usr/bin/laravel-echo-server start
+
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
