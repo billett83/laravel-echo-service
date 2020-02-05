@@ -4,7 +4,7 @@ Implement this file into systemd to run Laravel-echo-server as a service as an a
 
 ## Installation
 
-Edit hte service file updating the `WorkingDirectory` to match that patch of your Laravel-echo-server .conf file
+Edit the service file updating the `WorkingDirectory` to match that path of your laravel-echo-server .conf file
 
 #### RedHat/Centos/AWSLinux
 
